@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Información Personal</string>
-    <string name="app_tittel">Ejemplo</string>
+    <string name="text_name">Nombres</string>
+    <string name="text_requiere">*Obligatorio</string>
+    <string name="text_lastname">Apellidos</string>
+    <string name="text_gender">Sexo</string>
+    <string name="text_datepicker">Fecha</string>
+    <string name="text_school">Grado de escolaridad</string>
+    <string-array name="grade_spinner_options">
+        <item>Primaria</item>
+        <item>Bachillerato</item>
+        <item>Universidad</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="btn_next">Nombre</string>
+
 </resources>
