@@ -4,14 +4,22 @@
     <string name="text_requiere">*Obligatorio</string>
     <string name="text_lastname">Apellidos</string>
     <string name="text_gender">Sexo</string>
+    <string name="text_genderM">Masculino</string>
+    <string name="text_genderF">Femenino</string>
     <string name="text_datepicker">Fecha</string>
     <string name="text_school">Grado de escolaridad</string>
     <string-array name="grade_spinner_options">
-        <item>Primaria</item>
-        <item>Bachillerato</item>
-        <item>Universidad</item>
-        <item>Otro</item>
+        <item>School</item>
+        <item>Bachelor</item>
+        <item>University</item>
+        <item>Other</item>
     </string-array>
-    <string name="btn_next">Nombre</string>
-
+    <string name="btn_next">Next</string>
+    <string name="text_infoContact">Información de contacto</string>
+    <string name="text_telContact">Teléfono</string>
+    <string name="text_mailContact">Correo</string>
+    <string name="text_countryContact">Pais</string>
+    <string name="text_cityContact">Ciudad</string>
+    <string name="text_addressContact">Dirección</string>
+    Pais
 </resources>
