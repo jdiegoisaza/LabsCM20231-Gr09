@@ -24,6 +24,7 @@
         android:ems="10"
         android:inputType="phone"
         android:text="@string/text_telContact"
+        android:imeOptions="flagNoFullscreen"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tittleSecondActivity"
         tools:ignore="TouchTargetSizeCheck" />
@@ -36,6 +37,7 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="@string/text_mailContact"
+        android:imeOptions="flagNoFullscreen"
         app:layout_constraintStart_toEndOf="@+id/phoneNumber"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteY="40dp" />
@@ -49,6 +51,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/text_countryContact"
+        android:imeOptions="flagNoFullscreen"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
         tools:ignore="TouchTargetSizeCheck" />
@@ -62,6 +65,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/text_cityContact"
+        android:imeOptions="flagNoFullscreen"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3"
         app:layout_constraintTop_toBottomOf="@+id/emailAddress"
         tools:ignore="TouchTargetSizeCheck" />
@@ -75,6 +79,7 @@
         android:ems="10"
         android:inputType="textPostalAddress"
         android:text="@string/text_addressContact"
+        android:imeOptions="flagNoFullscreen"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
         tools:ignore="TouchTargetSizeCheck" />

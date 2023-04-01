@@ -37,12 +37,12 @@ class PersonalDataActivity : AppCompatActivity() {
             if (name.text.isNotEmpty() && lastName.text.isNotEmpty()){
                 val intent = Intent(this, ContactDataActivity::class.java)
                 intent.putExtra("name", name.text.toString())
-                intent.putExtra("last_name", lastName.text.toString())
+                intent.putExtra("lastName", lastName.text.toString())
                 if(gender.checkedRadioButtonId != -1){
                     val radioButton:RadioButton =findViewById(gender.checkedRadioButtonId)
                     intent.putExtra("gender",radioButton.text)
                 }
-                val datebirth:String = date.dayOfMonth.toString() + "/" + date.month.toString() + "/" + date.year.toString()
+                val datebirth:String = date.dayOfMonth.toString() + "/" + (date.month+1).toString() + "/" + date.year.toString()
                 intent.putExtra("date", datebirth)
                 intent.putExtra("education", education.selectedItem.toString())
 

@@ -15,12 +15,11 @@
         <item>Otro</item>
     </string-array>
     <string name="btn_next">Siguiente</string>
-    <string name="text_infoContact">Contact information</string>
-    <string name="text_telContact">Phone</string>
-    <string name="text_mailContact">Email</string>
-    <string name="text_countryContact">Country</string>
-    <string name="text_cityContact">City</string>
-    <string name="text_addressContact">Address</string>
-    Pais
+    <string name="text_infoContact">Información de contacto</string>
+    <string name="text_telContact">Teléfono</string>
+    <string name="text_mailContact">Correo</string>
+    <string name="text_countryContact">Pais</string>
+    <string name="text_cityContact">Ciudad</string>
+    <string name="text_addressContact">Dirección</string>
 
 </resources>

@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">Información Personal</string>
-    <string name="text_name">Nombres</string>
-    <string name="text_requiere">*Obligatorio</string>
-    <string name="text_lastname">Apellidos</string>
-    <string name="text_gender">Sexo</string>
-    <string name="text_genderM">Masculino</string>
-    <string name="text_genderF">Femenino</string>
-    <string name="text_datepicker">Fecha</string>
-    <string name="text_school">Grado de escolaridad</string>
+    <string name="app_name">Personal Information</string>
+    <string name="text_name">Names</string>
+    <string name="text_requiere">Requiere</string>
+    <string name="text_lastname">Last Name</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_genderM">Male</string>
+    <string name="text_genderF">Female</string>
+    <string name="text_datepicker">Date</string>
+    <string name="text_school">Level of education</string>
     <string-array name="grade_spinner_options">
         <item>School</item>
         <item>Bachelor</item>
@@ -15,11 +15,10 @@
         <item>Other</item>
     </string-array>
     <string name="btn_next">Next</string>
-    <string name="text_infoContact">Información de contacto</string>
-    <string name="text_telContact">Teléfono</string>
-    <string name="text_mailContact">Correo</string>
-    <string name="text_countryContact">Pais</string>
-    <string name="text_cityContact">Ciudad</string>
-    <string name="text_addressContact">Dirección</string>
-    Pais
+    <string name="text_infoContact">Contact information</string>
+    <string name="text_telContact">Phone</string>
+    <string name="text_mailContact">Email</string>
+    <string name="text_countryContact">Country</string>
+    <string name="text_cityContact">City</string>
+    <string name="text_addressContact">Address</string>
 </resources>
