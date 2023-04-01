@@ -36,26 +36,34 @@
         app:layout_constraintStart_toEndOf="@+id/editTextName"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <RadioButton
-        android:id="@+id/radioButtonMujer"
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginStart="36dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="16dp"
-        android:text="@string/text_genderF"
-        app:layout_constraintStart_toEndOf="@+id/radioButtonHombre"
-        app:layout_constraintTop_toBottomOf="@+id/editTextLastname" />
-
-    <RadioButton
-        android:id="@+id/radioButtonHombre"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/text_genderM"
+        android:layout_marginEnd="120dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewSexo"
-        app:layout_constraintTop_toBottomOf="@+id/editTextLastname" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextLastname">
 
+        <RadioButton
+            android:id="@+id/radioButtonMujer"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/text_genderF"
+            app:layout_constraintStart_toEndOf="@+id/radioButtonHombre"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHombre"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/text_genderM"
+            app:layout_constraintStart_toEndOf="@+id/textViewSexo"
+            tools:layout_editor_absoluteY="80dp" />
+    </RadioGroup>
     <TextView
         android:id="@+id/textViewSexo"
         android:layout_width="wrap_content"
@@ -78,7 +86,7 @@
         android:text="@string/text_datepicker"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_date_birth"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtonHombre" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupGender" />
 
     <TextView
         android:id="@+id/text_date_birth"
@@ -103,7 +111,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text_date_birth" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerSchool"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="77dp"
